@@ -1,18 +1,10 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="">
-      <header className="navbar">
-        <nav>
-          <ul>
-            <li>소개</li>
-            <li>프로젝트</li>
-            <li>스터디</li>
-            <li>연락처</li>
-          </ul>
-        </nav>
-      </header>
+      <Navbar />
       <section>
         <main>소개</main>
         <main>프로젝트</main>
